@@ -34,7 +34,7 @@ Launched "Fitness Training NeoGym," an innovative web application that prioritiz
 * In the context of my project, configuring the Auto Scaling Group (ASG) with a minimum capacity of 1, a desired capacity of 2, and a maximum capacity of 3
 * With these settings, your ASG will automatically adjust the number of instances between 1 and 3 based on demand. If demand increases, the ASG may scale out to accommodate, and if demand decreases, it may scale in to reduce costs while maintaining a minimum level of capacity. This dynamic scaling ensures your application can handle varying workloads efficiently.
 * To streamline the deployment process, consider initiating the setup with an Auto Scaling Group (ASG). Launch a new template encompassing the previously specified settings, including the creation of a load balancer with the designated target group.
-## step 8 -Trarget Tracking policy
+## step 8 -Target Tracking policy
 * I've implemented a target tracking policy within  Auto Scaling Group (ASG) to efficiently manage CPU utilization. When the CPU exceeds 50%, the policy dynamically scales up the ASG, automatically adding instances to handle increased demand. Conversely, when the CPU drops below 35%, the policy triggers a scale-down action, reducing the number of instances during periods of lower utilization.
 * This proactive and automated approach ensures optimal performance and resource utilization, aligning with both the demands of  application and cost-effective scaling practices.
 ## step 9 -Cloudwatch
