@@ -27,8 +27,8 @@ Launched "Fitness Training NeoGym," an innovative web application that prioritiz
 * For the Security Group (SG) associated with the Application Load Balancer (ALB), adjust the inbound rules to permit internet traffic, providing users with straightforward access.
 * Configure the Security Group (SG) linked with the instances to exclusively permit traffic originating from the Application Load Balancer (ALB), ensuring a secure and controlled communication channel.
 ## step 6 -configure ALB
-*After configuring the Application Load Balancer (ALB), it furnishes a DNS name that facilitates seamless access to instances without the need for direct internet connectivity. Importantly, external users can exclusively access the instances through the ALB, ensuring a controlled and secure point of entry.
-*In my project, I've configured the network mapping to encompass two availability zones, namely ap-south-1a and ap-south-1b. Additionally, I've registered targets within these specified availability zones, aligning with the instances I deployed in each zone. 
+* After configuring the Application Load Balancer (ALB), it furnishes a DNS name that facilitates seamless access to instances without the need for direct internet connectivity. Importantly, external users can exclusively access the instances through the ALB, ensuring a controlled and secure point of entry.
+* In my project, I've configured the network mapping to encompass two availability zones, namely ap-south-1a and ap-south-1b. Additionally, I've registered targets within these specified availability zones, aligning with the instances I deployed in each zone. 
 ## step 7 -Auto Scaling Group(ASG)
 * Implement an Auto Scaling Group (ASG) to dynamically manage the number of instances in response to varying workloads. This ensures optimal resource utilization and system availability by automatically adjusting the instance count based on configured scaling policies.
 * In the context of my project, configuring the Auto Scaling Group (ASG) with a minimum capacity of 1, a desired capacity of 2, and a maximum capacity of 3
