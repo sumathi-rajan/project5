@@ -1,4 +1,6 @@
 # Web Application: Fitness Training NEOGYM
+![Project 05](https://github.com/sumathi-rajan/project5/assets/150107821/34851d04-5ceb-4c09-8063-02bd5eea2f8a)
+
 ## Description:
 Launched "Fitness Training NeoGym," an innovative web application that prioritizes a seamless user experience, even during scheduled or unexpected downtime, thanks to the robust integration of AWS services.Utilized AWS services to enhance the availability and resilience of the Fitness Training NeoGym web application, ensuring an uninterrupted user experience in the face of potential disruptions.
 ## Services
